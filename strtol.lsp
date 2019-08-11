@@ -32,7 +32,7 @@
         (cond ((null restlist)
                (list (concatenate 'string cutlist) 
                      (concatenate 'string restlist)))
-              ((check-radix (car restlist) 10) 
+              ((check-radix (car restlist) radix) 
                 (strtol-iter (append cutlist (list (car restlist))) (cdr restlist)))
               (t   
                 (list (concatenate 'string cutlist) 
