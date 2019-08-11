@@ -14,13 +14,13 @@ https://www.sigbus.info/compilerbook
   - bash
 
 ## operation
-### how to execute test
+### execute test
 
 ```
 make test
 ```
 
-### how to clear temporary file
+### clear temporary file
 
 ```
 make clean
