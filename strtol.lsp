@@ -1,7 +1,10 @@
 ;;
 ;; strtol.lsp
-;; (strtol "123+44" 10)
-;;  -> ("123" "+44")
+;; 
+
+;;
+;; (seq 4)
+;; -> ("3" "2" "1" "0")
 ;;
 (defun seq(n)
    (labels (
@@ -13,6 +16,10 @@
                                               seqlist)))))
            (seq-iter n 0 '())))
 
+;; (check-radix "6" 5)
+;;  -> NIL
+;; (check-radix "3" 5)
+;;  -> "3"
 (defun check-radix (c radix)
     (find c (seq radix) :test #'string=))
 
