@@ -57,8 +57,3 @@
 ;;(format t "strtol(123+4) result=~A ~A ~%" 
 ;;                       (car (strtol "123+4" 10)) 
 ;;                       (cadr (strtol "123+4" 10)))
-
-;;(multiple-value-bind (cutstr reststr)
-;;       (strtol "123+4" 10)
-;;       (format t "strtol(123+4) result=~A ~A ~%" cutstr reststr)) 
-
