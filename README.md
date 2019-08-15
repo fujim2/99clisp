@@ -20,7 +20,7 @@ https://www.sigbus.info/compilerbook
 make test
 ```
 
-### clear temporary file
+### clean temporary file
 
 ```
 make clean
